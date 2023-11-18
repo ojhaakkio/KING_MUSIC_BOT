@@ -1,9 +1,9 @@
 <h2 align="center">
-    ──「 ᴀɴᴏɴ ダ ᴍᴜsɪᴄ 」──
+    ──「 KING ダ MUSIC 」──
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/56d1760224589ee370186.jpg">
+  <img src="https://telegra.ph//file/576de127d892c367c7a0e.jpg">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/36be820a8775f0bfc773e.jpg">
+  <img src="https://telegra.ph//file/f2bb01d0fbc661aedf306.jpg">
 </p>
 
 <h3 align="center">
