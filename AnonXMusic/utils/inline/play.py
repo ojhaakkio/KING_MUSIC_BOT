@@ -54,11 +54,11 @@ def stream_markup_timer(_, chat_id, played, dur):
         bar = "—————————◉"
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="🖤 OWNER 🖤", callback_data=f"@l_MR_ll_KING_l|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"{chat_id}"),
         ],
         [
             InlineKeyboardButton(
@@ -74,11 +74,11 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="🖤 OWNER 🖤", callback_data=f"@l_MR_ll_KING_l|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
