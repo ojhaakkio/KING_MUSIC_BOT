@@ -19,8 +19,8 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
-                callback_data=f"forceclose {videoid}|{user_id}",
+                text=_[""],
+                callback_data=f" {videoid}|{user_id}",
             )
         ],
     ]
@@ -73,7 +73,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text=_[""], callback_data="")],
     ]
     return buttons
 
@@ -87,8 +87,16 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
-    ]
+        [
+            InlineKeyboardButton(
+                text="ཽ͡ ⃝𝆺𝅥𝐌ꝛ፝֟ [🖤]❛𝐊ɩŋʛ𝅃꯭᳚𝅃꯭᳚𓄂️𓆪ꪾ", url=f"https://t.me/l_MR_ll_KING_l"
+            ),
+            InlineKeyboardButton(
+                text="♡︎ ˹ʟᴏᴠᴇ 𝑄𝑈𝐸𝐸𝑁┈•♡˼ 🫧🕊️⃝⁵ 🌹", url=f"https://t.me/l_MISS_l_QUEEN_l"
+            ),
+
+        [InlineKeyboardButton(text=_[""], callback_data="")],
+    ],
     return buttons
 
 
@@ -106,7 +114,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
+                text=_[""],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
         ],
@@ -124,7 +132,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
+                text=_[""],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
         ],
@@ -151,7 +159,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                 callback_data=f"slider B|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
+                text=_[""],
                 callback_data=f"forceclose {query}|{user_id}",
             ),
             InlineKeyboardButton(
